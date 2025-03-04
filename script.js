@@ -22,13 +22,3 @@ SportsCar.prototype.getTopSpeed = function() {
     return this.topSpeed;
 };
 
-
-function showCarDetails() {
-    let car1 = new SportsCar("Ferrari", "Testarossa", 200);
-    let output = document.getElementById("output");
-
-    // Show Car details in HTML
-    output.innerHTML = `
-        <strong>Make & Model:</strong> ${car1.getMakeModel()} <br>
-        <strong>Top Speed:</strong> ${car1.getTopSpeed()} mph`;
-}
