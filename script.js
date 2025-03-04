@@ -7,7 +7,7 @@ function Car(make, model) {
 
 // Car Prototype Method
 Car.prototype.getMakeModel = function() {
-    return this.make + " " + this.model;
+    return `${this.make} ${this.method}`;
 };
 
 function SportsCar(make, model, topSpeed) {
